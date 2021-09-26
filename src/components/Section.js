@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Section.css";
+import { Button } from "./Button.js";
 
 export default function Section({
+  bgColor,
   lineText,
   headerText,
   descText,
@@ -11,7 +14,7 @@ export default function Section({
   sidePos,
 }) {
   return (
-    <div className="section-style">
+    <div className={bgColor ? "section-style" : "section-style-white"}>
       <div className="section-container">
         <div
           className="section-row"
@@ -22,10 +25,14 @@ export default function Section({
         >
           <div className="section-col">
             <div className="text-wrapper">
-              <div className="text-line">{lineText}</div>
+              <span className="text-line">{lineText}</span>
               <h1 className="text-header">{headerText}</h1>
               <p className="text-desc">{descText}</p>
-              <Link to="/sign-up">{buttonText}</Link>
+              <Link to="/sign-up">
+                <Button btnStyle="btn-primary" btnSize="btn-large">
+                  {buttonText}
+                </Button>
+              </Link>
             </div>
           </div>
           <div className="section-col">

@@ -3,22 +3,38 @@
   cursor: pointer;
 }
 .btn-primary {
+  background-color: #ffe07d;
+  color: #2b4d66;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
   background-color: #e278b1;
   color: white;
 }
 .btn-transparent {
   background-color: transparent;
+  color: #2b4d66;
+  border: 2px solid #2b4d66;
+  transition: all 0.3s ease-in-out;
+}
+.btn-transparent:hover {
+  background-color: #e278b1;
   color: white;
-  border: 1px solid white;
+  border: 2px solid #e278b1;
 }
 .btn-large {
-  font-size: 18px;
-  height: 80px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 35px;
+  height: 60px;
   width: 180px;
 }
 .btn-medium {
   font-size: 18px;
+  font-weight: bold;
   border-radius: 25px;
   height: 40px;
-  width: 120px;
+  width: 180px;
 }

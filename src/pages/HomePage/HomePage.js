@@ -1,11 +1,13 @@
 import React from "react";
 import Section from "../../components/Section";
-import { homeFirstObject } from "./HomeData";
+import { homeSectionOne, homeSectionThree, homeSectionTwo } from "./HomeData";
 
 export default function HomePage() {
   return (
     <div>
-      <Section {...homeFirstObject} />
+      <Section {...homeSectionOne} />
+      <Section {...homeSectionTwo} />
+      <Section {...homeSectionThree} />
     </div>
   );
 }
