@@ -1,12 +1,12 @@
 export const aboutSectionOne = {
   bgColor: true,
-  lineText: "PROFESSIONAL AND HANDS-ON",
-  headerText: "24/7/365 CHAT SUPPORT",
+  lineText: "WORLD-CLASS HOSTING",
+  headerText: "TOP CLOUD DATABASE",
   descText:
-    "Our team of experts will solve technical issues to get your websites up and running. Anytime.",
-  img: "images/email.png",
+    "We store your data at our unique cloud, never need to worry about lost data.",
+  img: "images/database.png",
   imgAlt: "setup",
-  buttonText: "CONTACT NOW",
+  buttonText: "JOIN NOW",
   sidePos: "",
 };
 export const aboutSectionTwo = {
