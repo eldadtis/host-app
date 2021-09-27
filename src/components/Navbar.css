@@ -1,20 +1,20 @@
 .navbar {
   background: #90d8f9;
   height: 80px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 999;
 }
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  height: 80px;
-  z-index: 1;
   width: 100%;
+  height: 80px;
   max-width: 1300px;
   margin-right: auto;
   margin-left: auto;

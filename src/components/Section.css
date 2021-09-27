@@ -45,6 +45,9 @@
   line-height: 1.5;
   margin-bottom: 25px;
 }
+.img-wrapper {
+  max-width: 95%;
+}
 img {
   max-width: 100%;
   vertical-align: middle;

@@ -8,16 +8,14 @@ import ServicesPage from "./pages/ServicesPage/ServicesPage";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route path="/" exact component={HomePage} />
-          <Route path="/about" component={AboutPage} />
-          <Route path="/services" component={ServicesPage} />
-        </Switch>
-      </Router>
-    </div>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path="/" exact component={HomePage} />
+        <Route path="/about" component={AboutPage} />
+        <Route path="/services" component={ServicesPage} />
+      </Switch>
+    </Router>
   );
 }
 
