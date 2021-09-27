@@ -1,11 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./App.css";
 import Navbar from "./components/Navbar";
 import ScrollToTop from "./components/ScrollToTop";
 import HomePage from "./pages/HomePage/HomePage";
 import AboutPage from "./pages/AboutPage/AboutPage";
 import ServicesPage from "./pages/ServicesPage/ServicesPage";
+import Footer from "./components/Footer";
+import "./App.css";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/about" component={AboutPage} />
         <Route path="/services" component={ServicesPage} />
       </Switch>
+      <Footer />
     </Router>
   );
 }
