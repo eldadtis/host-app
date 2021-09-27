@@ -1,6 +1,6 @@
 import React from "react";
 import Section from "../../components/Section";
-import { homeSectionOne, homeSectionThree, homeSectionTwo } from "./HomeData";
+import { homeSectionOne, homeSectionTwo, homeSectionThree } from "./HomeData";
 
 export default function HomePage() {
   return (

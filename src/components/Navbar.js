@@ -24,13 +24,13 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="navbar-item">
-              <Link to="/" className="navbar-link">
-                About
+              <Link to="/services" className="navbar-link">
+                Services
               </Link>
             </li>
             <li className="navbar-item">
-              <Link to="/" className="navbar-link">
-                Services
+              <Link to="/about" className="navbar-link">
+                About
               </Link>
             </li>
             <li>
